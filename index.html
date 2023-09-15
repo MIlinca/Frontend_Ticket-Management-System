@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>"../Scripts/jquery-2.2.3.min.js"</script>
+	<link rel="stylesheet" href="./src/styles.css" />
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="stylesheet" href="./src/search-bar-styles.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Ticket Management</title>
+</head>
+
+<body>
+	<header id="page-header">
+		<nav class="flex-container mx-auto px-4 py-2">
+			<div class="flex items-center justify-between">
+				<div class="flex space-x-4 items-center">
+					<a href="/" aria-label="Go to home page">
+						<img class="logo" src="./src/assets/logo.png" alt="app logo">
+					</a>
+					<b class="title">
+						EventPass
+					</b>
+				</div>
+				<ul class="flex space-x-4">
+					<li>
+						<a href="/" class="text-ivory  text-3xl font-bold link-item">Home</a>
+					</li>
+					<li>
+						<a href="/orders" class="text-ivory text-3xl font-bold link-item">Orders</a>
+					</li>
+
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div id="loader" class="hidden opacity-100 fixed top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2">
+		<i class="fa fa-cog fa-spin fa-5x" style="color: #FEFAE0;"></i>
+	</div>
+	
+	<main class="main-content-component">
+	</main>
+	<footer id="page-footer">
+		<nav class="container mx-auto px-4 py-2 flex items-center justify-between">
+			<div>
+				<a>Designed By</a>
+			</div>
+		</nav>
+	</footer>
+	<script type="module" src="./main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+</body>
+
+</html>
