@@ -1,2 +1,2 @@
 # Frontend_Ticket-Management-System
- he project "Ticket Management System" focuses on the development of a ticket management system in the form of a web API, to provide users with the opportunity to search and purchase tickets for existing events in the platform, using various selection criteria.
+This frontend is the graphical interface that users see and interact with when accessing the application on a laptop or computer. The development of this part aimed to provide a quality user experience that allows users to navigate through events, perform searches, filter results, view event details and manage orders. To achieve these goals, the frontend code uses JavaScript to make requests to a backend server and dynamically update the content of web pages.
